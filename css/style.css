@@ -1,0 +1,108 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+  background-color: #3C065E;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 90px;
+}
+.logo{
+    margin-top: 10px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li{
+    margin-right:20px ;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+.header-area-img img{
+    width: 100%;
+}
+.header-buttom{
+    display: flex;
+    justify-content: center;
+    
+}
+.header-area-text{
+    width: 35%;
+    padding-top: 30px;
+}
+.header-area-img{
+    width: 50%;
+    position: relative;
+    bottom: 30px;
+    
+}
+.header-area-text h1{
+    font-size: 3rem;
+    color: white;
+
+}
+.header-area-text p{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: white;
+    line-height: 2em;
+}
+.header-area-text button{
+    padding: 15px 52px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    background-color: #29B7DD;
+    margin-top: 40px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+#features-section{
+text-align: center;
+margin-bottom: 60px;
+}
+#features-section h1{
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+#features-section p{
+    font-size: 1.2em;
+}
+.features-section-grid{
+    display: grid;
+    grid-template-columns: 500px repeat(2, 280px);
+    grid-template-rows:repeat(3, 250px);
+    justify-content: center;
+    grid-gap: 20px;
+}
+.features-box img{
+    width: 800px;
+    position: relative;
+    right: 130px;
+    
+}
+.features-box{
+    background-color: red;
+    overflow: hidden;
+    
+}
+.features-box:first-child{
+        grid-row-start: 1;
+    grid-row-end: 3;
+}
+.features-box-image{
+    
+}
